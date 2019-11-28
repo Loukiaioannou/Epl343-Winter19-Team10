@@ -16,7 +16,7 @@
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><img class="d-block ml-3" src="images/logo.png" height="70" width="70"> <h6> Koulla Lefkariti </h6> </a>
+  <a class="navbar-brand" href="indexWithoutPrices.html"><img class="d-block ml-3" src="images/logo.png" height="70" width="70"> <h6> Koulla Lefkariti </h6> </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -24,33 +24,33 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="indexWithoutPrices.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="aboutWithoutPrices.html">About</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Products
         </a>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="necklaces.html">Necklaces</a>
-	  <a class="dropdown-item" href="ring.html">Rings</a>
-          <a class="dropdown-item" href="earings.html">Earings</a>
-          <a class="dropdown-item" href="braselets.html">Bracelets</a>
+          <a class="dropdown-item" href="NecklacesWithoutPrices.html">Necklaces</a>
+	  <a class="dropdown-item" href="ringWithoutPrices.html">Rings</a>
+          <a class="dropdown-item" href="earingsWithoutPrices.html">Earings</a>
+          <a class="dropdown-item" href="braseletsWithoutPrices.html">Bracelets</a>
 
-          <a class="dropdown-item" href="other.html">Others</a>
+          <a class="dropdown-item" href="otherWithoutPrices.html">Others</a>
         </div>
       </li>
      <li class="nav-item">
 	<a class="nav-link" href="login.html"> Login </a>
      </li>
        <li class="nav-item">
-	<a class="nav-link" href="register.html"> Register </a>
+	<a class="nav-link" href="registerWithoutPrices.html"> Register </a>
      </li>
 	
        <li class="nav-item">
-	<a class="nav-link" href="cart.html"> <i class="fas fa-shopping-cart"></i>
+	<a class="nav-link" href="cartWithoutPrices.html"> <i class="fas fa-shopping-cart"></i>
 
 </a>
            
@@ -76,15 +76,25 @@
               <div class="form-label-group">
                 <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
                 <label for="inputPassword">Password</label>
+		
+		
+
               </div>
 
               <div class="custom-control custom-checkbox mb-3">
                 <input type="checkbox" class="custom-control-input" id="customCheck1">
                 <label class="custom-control-label" for="customCheck1">Remember password</label>
+
               </div>
-              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Sign in</button>
-              <hr class="my-4">
-              
+		<p class="login button"> 
+			<a href="index.html" class="btn btn-lg btn-primary btn-block text-uppercase">Login</a> 
+	<p onclick="alert('Incorrect Password');"
+
+		</p>
+		<p class="change_link">
+			Not a member yet ?
+			<a href="registerWithoutPrices.html" class="to_register">Join us</a>
+		</p>
             </form>
           </div>
         </div>
